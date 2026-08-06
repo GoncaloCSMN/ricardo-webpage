@@ -1,0 +1,1190 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ricardo Prim Melo | Mentor de Recuperação e Desenvolvimento Humano</title>
+<meta name="description" content="Mentoria de recuperação e desenvolvimento pessoal em Almada e online em todo o país. Plano claro, metas semanais e responsabilização. Mentor certificado em PNL, com formação IEFP.">
+<meta property="og:title" content="Ricardo Prim Melo | Mentor de Recuperação e Desenvolvimento Humano">
+<meta property="og:description" content="Da recuperação ao desenvolvimento pessoal, passo a passo. Mentoria prática, estruturada e humana. Online e presencial em Almada.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_PT">
+<meta property="og:locale:alternate" content="en_GB">
+<link rel="canonical" href="https://ricardopmelo.vercel.app/">
+<meta property="og:url" content="https://ricardopmelo.vercel.app/">
+<meta property="og:site_name" content="Ricardo Prim Melo">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#FBF8F3">
+<meta name="color-scheme" content="light">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600;700&display=swap">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"></noscript>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://ricardopmelo.vercel.app/#ricardo",
+      "name": "Ricardo Prim Melo",
+      "jobTitle": "Mentor de Recuperação e Desenvolvimento Humano",
+      "description": "Mentor de recuperação e desenvolvimento humano com certificação Practitioner em PNL e formação certificada pelo IEFP. Acompanhamento educacional e motivacional. Não é psicólogo, psiquiatra nem terapeuta.",
+      "url": "https://ricardopmelo.vercel.app/",
+      "homeLocation": { "@type": "Place", "name": "Almada, Portugal" },
+      "knowsLanguage": ["pt-PT", "en"],
+      "knowsAbout": ["Mentoria de recuperação", "Desenvolvimento pessoal", "Metas SMART", "Programação Neurolinguística"]
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://ricardopmelo.vercel.app/#servico",
+      "name": "Ricardo Prim Melo, Mentoria de Recuperação e Desenvolvimento Humano",
+      "url": "https://ricardopmelo.vercel.app/",
+      "description": "Mentoria prática e estruturada para pessoas em recuperação: conversas orientadas, metas SMART, responsabilização e ferramentas de autoavaliação. Online e presencial, em Portugal.",
+      "disambiguatingDescription": "Serviço educacional e motivacional de mentoria. Não presta serviços médicos, psicológicos ou psiquiátricos e não substitui acompanhamento clínico.",
+      "founder": { "@id": "https://ricardopmelo.vercel.app/#ricardo" },
+      "telephone": "+351967246075",
+      "areaServed": { "@type": "Country", "name": "Portugal" },
+      "availableLanguage": ["pt", "en"],
+      "priceRange": "€35 - €160",
+      "currenciesAccepted": "EUR",
+      "paymentAccepted": "MB Way, Transferência bancária",
+      "makesOffer": [
+        {
+          "@type": "Offer",
+          "name": "Sessão única (avaliação inicial ou apoio pontual)",
+          "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "EUR", "minPrice": 35, "maxPrice": 60 }
+        },
+        {
+          "@type": "Offer",
+          "name": "Pacote Início, 1 mês (4 sessões)",
+          "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "EUR", "minPrice": 100, "maxPrice": 160 }
+        }
+      ]
+    }
+  ]
+}
+</script>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23CBD9C2'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='34' fill='%232E3B39' text-anchor='middle'%3ER%3C/text%3E%3C/svg%3E">
+<script>
+document.documentElement.classList.add('js');
+/* O site abre sempre em portugues; so muda para EN se o visitante o escolheu antes */
+try{if(localStorage.getItem('rpm-lang')==='en'){document.documentElement.setAttribute('lang','en')}}catch(e){}
+</script>
+<style>
+:root{
+  --sand-50:#FBF8F3;
+  --sand-100:#F4EEE4;
+  --sand-200:#EAE1D2;
+  --blue-50:#EEF4F6;
+  --blue-100:#E1EBEF;
+  --blue-200:#C8DAE1;
+  --sage-50:#EFF3EC;
+  --sage-100:#E4EBDF;
+  --sage-200:#CBD9C2;
+  --sage-600:#556B4E;
+  --accent:#3E6C79;        /* deep calm blue, buttons/links (AA on light) */
+  --accent-hover:#345B66;
+  --ink:#2E3B39;
+  --ink-soft:#576763;
+  --ink-faint:#5F6E6A;
+  --white:#FFFFFF;
+  --radius:18px;
+  --shadow:0 10px 30px rgba(46,59,57,.08);
+  --shadow-sm:0 4px 14px rgba(46,59,57,.06);
+  --max:1120px;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',system-ui,sans-serif;color:var(--ink);background:var(--sand-50);line-height:1.65;font-size:16.5px;-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:'Fraunces',Georgia,serif;font-weight:600;line-height:1.18;letter-spacing:-.01em}
+h1{font-size:clamp(2rem,5vw,3.1rem)}
+h2{font-size:clamp(1.55rem,3.4vw,2.15rem)}
+h3{font-size:1.12rem;font-weight:600}
+p{color:var(--ink-soft)}
+a{color:var(--accent)}
+img{max-width:100%;display:block}
+[id]{scroll-margin-top:88px}
+.card-title{font-family:'Fraunces',Georgia,serif;font-weight:600;font-size:1.12rem;line-height:1.2;color:var(--ink)}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 22px}
+.eyebrow{display:inline-block;font-size:.78rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--sage-600);margin-bottom:14px}
+.section{padding:76px 0}
+.section-head{max-width:640px;margin-bottom:44px}
+.section-head p{margin-top:12px;font-size:1.02rem}
+
+/* language switching */
+html[lang="pt"] [data-l="en"]{display:none!important}
+html[lang="en"] [data-l="pt"]{display:none!important}
+
+/* header */
+header{position:sticky;top:0;z-index:50;background:rgba(251,248,243,.88);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid var(--sand-200)}
+.skip{position:absolute;left:12px;top:-52px;z-index:100;background:var(--accent);color:#fff;padding:10px 18px;border-radius:0 0 12px 12px;font-weight:600;text-decoration:none;transition:top .2s}
+.skip:focus{top:0}
+.nav{display:flex;align-items:center;justify-content:space-between;height:68px;gap:16px}
+.logo{font-family:'Fraunces',serif;font-size:1.14rem;font-weight:600;color:var(--ink);text-decoration:none;white-space:nowrap}
+.logo span{color:var(--sage-600)}
+.nav-links{display:flex;align-items:center;gap:26px;list-style:none}
+.nav-links a{color:var(--ink-soft);text-decoration:none;font-size:.92rem;font-weight:500;transition:color .2s}
+.nav-links a:hover{color:var(--accent)}
+.nav-cta{display:flex;align-items:center;gap:12px}
+.lang-toggle{display:flex;border:1px solid var(--sand-200);border-radius:999px;overflow:hidden;background:var(--white)}
+.lang-toggle button{border:0;background:transparent;padding:6px 12px;font:600 .8rem 'Inter',sans-serif;color:var(--ink-faint);cursor:pointer;transition:.2s}
+.lang-toggle button.active{background:var(--accent);color:#fff}
+.burger{display:none;border:0;background:transparent;cursor:pointer;padding:8px}
+.burger span{display:block;width:22px;height:2px;background:var(--ink);margin:5px 0;border-radius:2px;transition:.25s}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;gap:9px;padding:13px 26px;border-radius:999px;font-weight:600;font-size:.95rem;text-decoration:none;transition:.2s;border:0;cursor:pointer}
+.btn-primary{background:var(--accent);color:#fff;box-shadow:var(--shadow-sm)}
+.btn-primary:hover{background:var(--accent-hover);transform:translateY(-1px)}
+.btn-ghost{background:transparent;color:var(--ink);border:1.5px solid var(--sand-200)}
+.btn-ghost:hover{border-color:var(--accent);color:var(--accent)}
+.btn-sm{padding:10px 20px;font-size:.88rem}
+.btn-xs{padding:7px 14px;font-size:.8rem}
+
+/* hero */
+.hero{background:linear-gradient(160deg,var(--blue-100) 0%,var(--sand-50) 55%,var(--sage-50) 100%);padding:88px 0 72px}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:56px;align-items:center}
+.hero h1{margin:0 0 18px}
+.hero .lead{font-size:1.13rem;max-width:520px}
+.hero-ctas{display:flex;flex-wrap:wrap;gap:14px;margin-top:30px}
+.hero-note{margin-top:26px;display:flex;gap:10px;align-items:flex-start;font-size:.88rem;color:var(--ink-soft);max-width:540px}
+.hero-note a{color:var(--accent);font-weight:600}
+.hero-note svg{flex:none;margin-top:2px}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}
+.chip{background:var(--white);border:1px solid var(--sand-200);border-radius:999px;padding:7px 15px;font-size:.82rem;font-weight:500;color:var(--ink-soft);display:inline-flex;align-items:center;gap:7px}
+.chip svg{color:var(--sage-600)}
+.hero-card{background:var(--white);border-radius:24px;box-shadow:var(--shadow);padding:34px;border:1px solid var(--sand-100)}
+.hero-card .avatar{width:84px;height:84px;border-radius:50%;background:linear-gradient(135deg,var(--sage-200),var(--blue-200));display:flex;align-items:center;justify-content:center;font-family:'Fraunces',serif;font-size:1.5rem;color:var(--ink);margin-bottom:18px;overflow:hidden;border:3px solid var(--white);box-shadow:0 0 0 2px var(--sage-200),var(--shadow-sm)}
+.hero-card .avatar img{width:100%;height:100%;object-fit:cover;border-radius:50%}
+.hero-card .card-title{margin-bottom:4px}
+.hero-card .role{font-size:.88rem;color:var(--sage-600);font-weight:600;margin-bottom:16px}
+.hero-card ul{list-style:none;display:grid;gap:10px}
+.hero-card li{display:flex;gap:10px;font-size:.9rem;color:var(--ink-soft);align-items:flex-start}
+.hero-card li svg{flex:none;margin-top:3px;color:var(--sage-600)}
+
+/* clarity band */
+.clarity{background:var(--sage-100);padding:54px 0}
+.clarity-grid{display:grid;grid-template-columns:1fr 1fr;gap:26px}
+.clarity-card{background:var(--white);border-radius:var(--radius);padding:28px 30px;box-shadow:var(--shadow-sm)}
+.clarity-card h3{display:flex;align-items:center;gap:10px;margin-bottom:14px}
+.clarity-card ul{list-style:none;display:grid;gap:9px}
+.clarity-card li{display:flex;gap:10px;font-size:.93rem;color:var(--ink-soft);align-items:flex-start}
+.clarity-card li svg{flex:none;margin-top:4px}
+.yes svg{color:var(--sage-600)}
+.no svg{color:#B4836B}
+
+/* about */
+.about-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:56px;align-items:start}
+.about-visual{background:linear-gradient(150deg,var(--blue-100),var(--sage-100));border-radius:24px;padding:34px;position:sticky;top:96px}
+.about-visual .card-title{margin-bottom:16px}
+.tool-list{list-style:none;display:grid;gap:12px}
+.tool-list li{background:var(--white);border-radius:14px;padding:14px 16px;font-size:.9rem;color:var(--ink-soft);display:flex;gap:12px;align-items:flex-start;box-shadow:var(--shadow-sm)}
+.tool-list li strong{color:var(--ink);display:block;font-size:.92rem}
+.tool-list li svg{flex:none;margin-top:2px;color:var(--accent)}
+.about-text p{margin-bottom:16px}
+.pnl-badge{margin-top:22px;background:var(--blue-50);border:1px solid var(--blue-200);border-radius:var(--radius);padding:18px 22px;font-size:.92rem;color:var(--ink-soft)}
+.pnl-badge strong{color:var(--ink)}
+
+/* credentials */
+.creds{background:var(--sage-50)}
+.creds-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-bottom:36px}
+.stat{background:var(--white);border-radius:var(--radius);padding:20px 22px;box-shadow:var(--shadow-sm);text-align:center}
+.stat .n{font-family:'Fraunces',Georgia,serif;font-size:2rem;font-weight:600;color:var(--accent);line-height:1.1}
+.stat .l{font-size:.84rem;color:var(--ink-soft);margin-top:4px}
+.cred-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px}
+.cred{background:var(--white);border-radius:var(--radius);padding:20px 22px;box-shadow:var(--shadow-sm);border:1px solid var(--sand-100);display:flex;flex-direction:column;gap:6px}
+.cred .card-title{font-size:.98rem;line-height:1.3}
+.cred .inst{font-size:.84rem;color:var(--sage-600);font-weight:600}
+.cred-meta{display:flex;gap:8px;flex-wrap:wrap;margin-top:auto;padding-top:10px}
+.cred-meta span{font-size:.74rem;font-weight:600;color:var(--ink-faint);background:var(--sand-50);border:1px solid var(--sand-200);border-radius:999px;padding:3px 10px}
+.cred-extra{margin-top:18px;font-size:.88rem;color:var(--ink-soft)}
+.journey{margin-top:44px;background:var(--white);border-radius:24px;padding:36px;box-shadow:var(--shadow-sm)}
+.journey .card-title{margin-bottom:24px;font-size:1.2rem}
+.j-line{list-style:none;position:relative;display:grid;gap:24px;padding-left:30px}
+.j-line::before{content:"";position:absolute;left:5px;top:8px;bottom:8px;width:2px;background:var(--sage-200);border-radius:2px}
+.j-line li{position:relative}
+.j-line li::before{content:"";position:absolute;left:-30px;top:5px;width:12px;height:12px;border-radius:50%;background:var(--sage-600);border:3px solid var(--sage-50);box-shadow:0 0 0 2px var(--sage-200)}
+.j-year{display:block;font-size:.74rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+.j-line strong{display:block;font-family:'Fraunces',Georgia,serif;font-weight:600;font-size:1.02rem;color:var(--ink);margin:2px 0}
+.j-line p{font-size:.9rem}
+.creds-note{margin-top:26px;font-size:.85rem;color:var(--ink-soft);text-align:center}
+
+.about-text{max-width:780px}
+.method-mix{margin-top:44px}
+.method-mix .card-title{margin-bottom:18px;font-size:1.2rem}
+.method-mix .tool-list{grid-template-columns:repeat(4,1fr);gap:14px}
+
+/* articles (Q&A tab) */
+.art-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:18px}
+.art{background:var(--white);border-radius:var(--radius);padding:22px;box-shadow:var(--shadow-sm);border:1px solid var(--sand-100);display:flex;flex-direction:column;gap:8px;transition:.2s}
+.art:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
+.art .lang-badge{align-self:flex-start;font-size:.7rem;font-weight:700;letter-spacing:.06em;padding:3px 9px;border-radius:999px}
+.art .lang-badge.b-pt{background:var(--sage-100);color:var(--sage-600)}
+.art .lang-badge.b-en{background:var(--blue-100);color:var(--accent)}
+.art .src{font-size:.78rem;font-weight:600;color:var(--ink-faint)}
+.art h3{font-size:1rem;line-height:1.35}
+.art p{font-size:.86rem;flex:1}
+.art .read{font-size:.86rem;font-weight:600;color:var(--accent);text-decoration:none;margin-top:6px}
+.art .read:hover{text-decoration:underline}
+.art-note{margin-top:22px;font-size:.8rem;color:var(--ink-faint);text-align:left}
+
+/* method */
+.method{background:var(--blue-50)}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;counter-reset:step}
+.step{background:var(--white);border-radius:var(--radius);padding:30px;box-shadow:var(--shadow-sm);position:relative}
+.step .num{width:42px;height:42px;border-radius:12px;background:var(--sage-100);color:var(--sage-600);font-family:'Fraunces',serif;font-size:1.2rem;font-weight:600;display:flex;align-items:center;justify-content:center;margin-bottom:18px}
+.step h3{margin-bottom:8px}
+.step p{font-size:.92rem}
+.session{margin-top:52px;background:var(--white);border-radius:24px;padding:36px;box-shadow:var(--shadow-sm)}
+.session h3{margin-bottom:6px}
+.session>p{font-size:.92rem;margin-bottom:24px}
+.timeline{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}
+.t-item{background:var(--sand-50);border-radius:14px;padding:16px 14px;border:1px solid var(--sand-100)}
+.t-item .t-min{font-size:.74rem;font-weight:700;color:var(--accent);letter-spacing:.06em;text-transform:uppercase}
+.t-item .t-name{font-weight:600;font-size:.9rem;margin-top:4px;color:var(--ink)}
+.t-item p{font-size:.8rem;margin-top:4px}
+
+/* services */
+.services-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:22px}
+.svc{background:var(--white);border-radius:var(--radius);padding:26px;box-shadow:var(--shadow-sm);border:1px solid var(--sand-100);transition:.2s;display:flex;flex-direction:column;align-items:flex-start}
+.svc p{flex:1}
+.svc .btn-xs{margin-top:14px}
+.svc:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
+.svc .ico{width:44px;height:44px;border-radius:12px;display:flex;align-items:center;justify-content:center;margin-bottom:16px;background:var(--blue-100);color:var(--accent)}
+.svc:nth-child(3n+2) .ico{background:var(--sage-100);color:var(--sage-600)}
+.svc:nth-child(3n) .ico{background:var(--sand-100);color:#A0785C}
+.svc h3{margin-bottom:6px;font-size:1.02rem}
+.svc p{font-size:.88rem}
+.svc .dur{display:inline-block;margin-top:12px;font-size:.76rem;font-weight:600;color:var(--ink-faint);background:var(--sand-50);border:1px solid var(--sand-200);border-radius:999px;padding:4px 11px}
+
+/* pricing */
+.pricing{background:linear-gradient(180deg,var(--sand-50),var(--sage-50))}
+.price-grid{display:grid;grid-template-columns:repeat(2,minmax(0,420px));gap:26px;justify-content:center}
+.price-card{background:var(--white);border-radius:24px;padding:36px;box-shadow:var(--shadow);border:1px solid var(--sand-100);display:flex;flex-direction:column}
+.price-card.featured{border:2px solid var(--sage-200);position:relative}
+.badge{position:absolute;top:-13px;left:32px;background:var(--sage-600);color:#fff;font-size:.72rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:5px 14px;border-radius:999px}
+.price-card h3{font-size:1.2rem}
+.price{font-family:'Fraunces',serif;font-size:2.1rem;font-weight:600;margin:14px 0 4px}
+.price small{font-size:.9rem;color:var(--ink-faint);font-family:'Inter',sans-serif;font-weight:500}
+.price-card .per{font-size:.85rem;color:var(--ink-faint);margin-bottom:22px}
+.price-card ul{list-style:none;display:grid;gap:11px;margin-bottom:28px}
+.price-card li{display:flex;gap:10px;font-size:.92rem;color:var(--ink-soft);align-items:flex-start}
+.price-card li svg{flex:none;margin-top:4px;color:var(--sage-600)}
+.price-card .btn{margin-top:auto;justify-content:center}
+.price-note{text-align:center;margin-top:26px;font-size:.85rem;color:var(--ink-faint)}
+
+/* testimonials */
+.testi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px}
+.testi{background:var(--white);border-radius:var(--radius);padding:28px;box-shadow:var(--shadow-sm);border:1px solid var(--sand-100);display:flex;flex-direction:column}
+.testi .stars{color:#C9A86A;letter-spacing:2px;font-size:.9rem;margin-bottom:14px}
+.testi blockquote{font-size:.94rem;color:var(--ink-soft);font-style:italic;flex:1}
+.testi .who{margin-top:18px;display:flex;align-items:center;gap:12px}
+.testi .who .av{width:38px;height:38px;border-radius:50%;background:var(--sage-100);color:var(--sage-600);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:.82rem}
+.testi .who span{font-size:.85rem;font-weight:600;color:var(--ink)}
+.testi .who small{display:block;font-weight:400;color:var(--ink-faint)}
+.testi-note{margin-top:22px;text-align:center;font-size:.82rem;color:var(--ink-faint)}
+
+/* faq */
+.faq{background:var(--blue-50)}
+.faq-list{max-width:760px;margin:0 auto;display:grid;gap:12px}
+details{background:var(--white);border-radius:16px;border:1px solid var(--sand-100);box-shadow:var(--shadow-sm);overflow:hidden}
+summary{list-style:none;cursor:pointer;padding:19px 24px;font-weight:600;font-size:.98rem;display:flex;justify-content:space-between;align-items:center;gap:16px}
+summary::-webkit-details-marker{display:none}
+summary .plus{flex:none;width:26px;height:26px;border-radius:50%;background:var(--sage-100);color:var(--sage-600);display:flex;align-items:center;justify-content:center;font-weight:600;transition:.25s;font-family:'Inter',sans-serif}
+details[open] .plus{transform:rotate(45deg);background:var(--accent);color:#fff}
+.faq-a{padding:0 24px 20px;font-size:.92rem;color:var(--ink-soft)}
+
+/* contact */
+.contact-card{background:linear-gradient(140deg,var(--sage-100),var(--blue-100));border-radius:28px;padding:clamp(40px,7vw,72px);text-align:center}
+.contact-card .eyebrow{margin-bottom:12px}
+.contact-card h2{margin-bottom:16px}
+.contact-card p{max-width:520px;margin:0 auto 34px;line-height:1.7}
+.contact-actions{display:flex;flex-wrap:wrap;gap:14px;justify-content:center}
+.contact-card .contact-small{margin:28px auto 0;font-size:.85rem;color:var(--ink-faint);display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:6px 10px;max-width:none}
+.contact-card .contact-small a{color:var(--accent);font-weight:600;text-decoration:none}
+.contact-card .contact-small a:hover{text-decoration:underline}
+.contact-card .contact-small .sep{color:var(--ink-faint);opacity:.6}
+
+/* footer */
+footer{background:var(--ink);color:#B9C4C0;padding:52px 0 34px;font-size:.87rem}
+.foot-grid{display:grid;grid-template-columns:1.4fr 1fr;gap:40px;margin-bottom:34px}
+.foot-grid h4{color:#fff;font-family:'Fraunces',serif;font-size:1.05rem;margin-bottom:12px}
+.foot-grid p{color:#9AA8A4;font-size:.84rem}
+.foot-links{list-style:none;display:grid;gap:8px}
+.foot-links a{color:#B9C4C0;text-decoration:none}
+.foot-links a:hover{color:#fff}
+.disclaimer{border:1px solid #46554F;border-radius:14px;padding:16px 20px;font-size:.8rem;color:#9AA8A4;margin-bottom:28px}
+.foot-bottom{border-top:1px solid #46554F;padding-top:22px;display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between;align-items:center;font-size:.8rem;color:#9AA8A4}
+footer a:focus-visible{outline-color:#B9C4C0}
+
+/* whatsapp float */
+.wa-float{position:fixed;right:20px;bottom:20px;z-index:60;width:52px;height:52px;border-radius:50%;background:#1FA855;display:flex;align-items:center;justify-content:center;box-shadow:var(--shadow);transition:.2s}
+.wa-float:hover{transform:scale(1.07)}
+.wa-float svg{color:#fff}
+
+/* modal Vamos falar */
+.modal-overlay{position:fixed;inset:0;z-index:90;background:rgba(46,59,57,.5);display:flex;align-items:center;justify-content:center;padding:18px;opacity:0;pointer-events:none;transition:opacity .25s}
+.modal-overlay.open{opacity:1;pointer-events:auto}
+.modal{background:var(--white);border-radius:24px;padding:30px 28px 26px;max-width:440px;width:100%;box-shadow:var(--shadow);position:relative;max-height:92vh;overflow:auto;transform:translateY(14px);transition:transform .25s}
+.modal-overlay.open .modal{transform:none}
+.modal-close{position:absolute;top:12px;right:12px;width:34px;height:34px;border-radius:50%;border:0;background:var(--sand-100);color:var(--ink);font-size:1.1rem;cursor:pointer;line-height:1}
+.modal-close:hover{background:var(--sand-200)}
+.modal .card-title{font-size:1.3rem;margin-bottom:4px}
+.modal-sub{font-size:.9rem;margin-bottom:18px}
+.modal label{display:block;font-size:.84rem;font-weight:600;color:var(--ink);margin-bottom:12px}
+.modal input,.modal textarea{width:100%;margin-top:5px;padding:10px 12px;border:1.5px solid var(--sand-200);border-radius:12px;font:inherit;font-size:.9rem;background:var(--sand-50);color:var(--ink);box-sizing:border-box}
+.modal input:focus,.modal textarea:focus{outline:2px solid var(--accent);border-color:var(--accent)}
+.modal .btn{width:100%;justify-content:center}
+.modal-divider{display:flex;align-items:center;gap:12px;color:var(--ink-faint);font-size:.8rem;margin:16px 0}
+.modal-divider::before,.modal-divider::after{content:"";flex:1;height:1px;background:var(--sand-200)}
+.modal-actions{display:grid;gap:10px}
+.modal-note{font-size:.78rem;color:var(--ink-faint);margin-top:14px;text-align:center}
+
+/* reveal (only when JS is available) */
+html.js .reveal{opacity:0;transform:translateY(18px);transition:opacity .6s ease,transform .6s ease}
+html.js .reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  html.js .reveal{opacity:1;transform:none;transition:none}
+  details::details-content{transition:none}
+}
+@supports (interpolate-size:allow-keywords){
+  :root{interpolate-size:allow-keywords}
+  details::details-content{block-size:0;overflow:clip;opacity:0;transition:block-size .3s ease,opacity .25s ease,content-visibility .3s allow-discrete}
+  details[open]::details-content{block-size:auto;opacity:1}
+}
+@media print{
+  header,.wa-float,.hero-ctas,.contact-actions,.lang-toggle,.skip{display:none!important}
+  html.js .reveal{opacity:1!important;transform:none!important}
+  .section{padding:28px 0}
+  body{background:#fff}
+  .hero,.clarity,.method,.pricing,.faq,.creds{background:#fff}
+}
+
+/* focus */
+a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var(--accent);outline-offset:2px;border-radius:6px}
+
+/* responsive */
+@media (max-width:1120px){
+  /* ribbon menu: stays open under the sticky header while navigating */
+  .nav-links{display:none;position:absolute;top:100%;left:0;right:0;background:var(--sand-50);flex-direction:row;flex-wrap:wrap;align-items:center;gap:4px 22px;padding:10px 22px 12px;border-bottom:1px solid var(--sand-200);box-shadow:var(--shadow-sm)}
+  .nav-links.open{display:flex}
+  .nav-links a{display:inline-block;padding:6px 0}
+  .burger{display:block}
+  .burger.open span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+  .burger.open span:nth-child(2){opacity:0}
+  .burger.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+}
+@media (max-width:960px){
+  .hero-grid,.about-grid{grid-template-columns:1fr;gap:38px}
+  .method-mix .tool-list{grid-template-columns:1fr 1fr}
+  .about-visual{position:static}
+  .timeline{grid-template-columns:repeat(3,1fr)}
+  .price-grid{grid-template-columns:1fr;max-width:460px;margin:0 auto}
+}
+@media (max-width:840px){
+  .steps{grid-template-columns:1fr}
+}
+@media (max-width:720px){
+  .section{padding:58px 0}
+  .clarity-grid{grid-template-columns:1fr}
+  .timeline{grid-template-columns:1fr 1fr}
+  .foot-grid{grid-template-columns:1fr}
+  .hero{padding:56px 0 50px}
+  .journey{padding:26px 22px}
+}
+@media (max-width:520px){
+  .timeline{grid-template-columns:1fr}
+  .method-mix .tool-list{grid-template-columns:1fr}
+  .creds-stats{grid-template-columns:1fr;gap:12px}
+  .logo{font-size:.98rem}
+  .nav{gap:8px}
+  .lang-toggle button{padding:5px 9px}
+  .btn-xs{padding:7px 11px;font-size:.78rem}
+}
+@media (max-width:400px){
+  .wrap{padding:0 14px}
+  .logo{font-size:.9rem}
+  .nav-cta{gap:8px}
+  .lang-toggle button{padding:4px 7px;font-size:.74rem}
+  .btn-xs{padding:6px 9px;font-size:.74rem}
+  .burger{padding:6px 4px}
+}
+</style>
+</head>
+<body>
+
+<a class="skip" href="#topo"><span data-l="pt">Saltar para o conteúdo</span><span data-l="en">Skip to content</span></a>
+
+<header>
+  <div class="wrap nav">
+    <a class="logo" href="#topo">Ricardo <span>Prim Melo</span></a>
+    <nav aria-label="Principal">
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#metodo"><span data-l="pt">Método</span><span data-l="en">Method</span></a></li>
+        <li><a href="#servicos"><span data-l="pt">Serviços</span><span data-l="en">Services</span></a></li>
+        <li><a href="#pacotes"><span data-l="pt">Pacotes</span><span data-l="en">Packages</span></a></li>
+        <li><a href="#testemunhos"><span data-l="pt">Testemunhos</span><span data-l="en">Testimonials</span></a></li>
+        <li><a href="#sobre"><span data-l="pt">Sobre</span><span data-l="en">About</span></a></li>
+        <li><a href="#faq"><span data-l="pt">Q&amp;A</span><span data-l="en">FAQ</span></a></li>
+        <li><a href="#contacto"><span data-l="pt">Contacto</span><span data-l="en">Contact</span></a></li>
+      </ul>
+    </nav>
+    <div class="nav-cta">
+      <div class="lang-toggle" role="group" aria-label="Idioma / Language">
+        <button type="button" id="btnPt" class="active" aria-pressed="true">PT</button>
+        <button type="button" id="btnEn" aria-pressed="false">EN</button>
+      </div>
+      <button type="button" class="btn btn-primary btn-xs" id="talkBtn">
+        <span data-l="pt">Vamos falar</span><span data-l="en">Let's talk</span>
+      </button>
+      <button class="burger" id="burger" aria-label="Abrir menu" aria-controls="navLinks" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="topo">
+<div id="view-home">
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow"><span data-l="pt">Mentor de Recuperação e Desenvolvimento Humano</span><span data-l="en">Recovery &amp; Human Development Mentor</span></span>
+      <h1><span data-l="pt">Da recuperação ao desenvolvimento pessoal, passo a passo.</span><span data-l="en">From recovery to personal growth, one step at a time.</span></h1>
+      <p class="lead">
+        <span data-l="pt">Mentoria prática e estruturada para quem está a recuperar e quer reconstruir rotinas, objetivos e confiança: um plano claro, mensurável e ao ritmo de cada pessoa.</span>
+        <span data-l="en">Practical, structured mentoring for people in recovery who want to rebuild routines, goals and confidence: a clear, measurable plan, at each person's own pace.</span>
+      </p>
+      <div class="hero-ctas">
+        <button type="button" class="btn btn-primary" data-open-modal>
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          <span data-l="pt">Vamos falar</span><span data-l="en">Let's talk</span>
+        </button>
+        <a class="btn btn-ghost" href="#metodo"><span data-l="pt">Como trabalho</span><span data-l="en">How I work</span></a>
+      </div>
+      <div class="chips">
+        <span class="chip"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span data-l="pt">Online e presencial em Almada</span><span data-l="en">Online &amp; in person in Almada</span></span>
+        <span class="chip"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span data-l="pt">Certificação internacional em PNL</span><span data-l="en">Certified NLP Practitioner</span></span>
+        <span class="chip"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span data-l="pt">400+ horas de formação certificada</span><span data-l="en">400+ hours of certified training</span></span>
+      </div>
+      <p class="hero-note">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg>
+        <span data-l="pt">Sou mentor, não sou psicólogo nem terapeuta. Este acompanhamento não substitui apoio psicológico, médico ou psiquiátrico. <a href="#clareza">Saber mais sobre limites</a></span>
+        <span data-l="en">I am a mentor, not a psychologist or therapist. This support does not replace psychological, medical or psychiatric care. <a href="#clareza">More about boundaries</a></span>
+      </p>
+    </div>
+    <div class="hero-card reveal">
+      <div class="avatar"><img src="data:image/jpeg;base64,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" alt="Ricardo Prim Melo"></div>
+      <p class="card-title">Ricardo Prim Melo</p>
+      <p class="role"><span data-l="pt">Mentor de Recuperação e Desenvolvimento Humano</span><span data-l="en">Recovery &amp; Human Development Mentor</span></p>
+      <ul>
+        <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span data-l="pt">Certificação internacional em PNL e formação certificada pelo IEFP</span><span data-l="en">International NLP certification &amp; IEFP certified training</span></li>
+        <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span data-l="pt">Conversas orientadas e escuta estruturada</span><span data-l="en">Guided conversations &amp; structured listening</span></li>
+        <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span data-l="pt">Metas SMART e diários de progresso</span><span data-l="en">SMART goals &amp; progress journals</span></li>
+        <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span data-l="pt">Responsabilização regular e ferramentas de autoavaliação</span><span data-l="en">Regular accountability &amp; self-assessment tools</span></li>
+        <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span data-l="pt">Reencaminhamento clínico quando necessário</span><span data-l="en">Clinical referral whenever needed</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- METHOD -->
+<section class="section method" id="metodo">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow"><span data-l="pt">Como trabalho</span><span data-l="en">How I work</span></span>
+      <h2><span data-l="pt">Um caminho simples, em três passos</span><span data-l="en">A simple path, in three steps</span></h2>
+    </div>
+    <div class="steps">
+      <div class="step reveal">
+        <div class="num">1</div>
+        <h3><span data-l="pt">Avaliação inicial</span><span data-l="en">Initial assessment</span></h3>
+        <p><span data-l="pt">Uma conversa de 60-75 minutos para compreender a sua realidade, o momento em que está e o que quer mudar.</span><span data-l="en">A 60-75 minute conversation to understand your reality, where you are now and what you want to change.</span></p>
+      </div>
+      <div class="step reveal">
+        <div class="num">2</div>
+        <h3><span data-l="pt">Plano personalizado</span><span data-l="en">Personalised plan</span></h3>
+        <p><span data-l="pt">Definimos o plano em conjunto: metas realistas e tarefas práticas semanais, de curto, médio e longo prazo.</span><span data-l="en">We build the plan together: realistic goals and practical weekly tasks, short, medium and long term.</span></p>
+      </div>
+      <div class="step reveal">
+        <div class="num">3</div>
+        <h3><span data-l="pt">Acompanhamento regular</span><span data-l="en">Regular follow-up</span></h3>
+        <p><span data-l="pt">Sessões semanais com responsabilização, ferramentas concretas e ajustes ao plano sempre que necessário.</span><span data-l="en">Weekly sessions with accountability, concrete tools and plan adjustments whenever needed.</span></p>
+      </div>
+    </div>
+    <div class="session reveal">
+      <h3><span data-l="pt">Como é uma sessão típica (50 min)</span><span data-l="en">What a typical session looks like (50 min)</span></h3>
+      <p><span data-l="pt">Cada sessão segue a mesma estrutura: saber o que esperar dá segurança.</span><span data-l="en">Every session follows the same structure: knowing what to expect builds safety.</span></p>
+      <div class="timeline">
+        <div class="t-item"><div class="t-min">5 min</div><div class="t-name">Check-in</div><p><span data-l="pt">Como está hoje</span><span data-l="en">How you're doing today</span></p></div>
+        <div class="t-item"><div class="t-min">10-15 min</div><div class="t-name"><span data-l="pt">Revisão</span><span data-l="en">Review</span></div><p><span data-l="pt">Tarefas e progresso da semana</span><span data-l="en">Tasks and the week's progress</span></p></div>
+        <div class="t-item"><div class="t-min">25-30 min</div><div class="t-name"><span data-l="pt">Trabalho ativo</span><span data-l="en">Active work</span></div><p><span data-l="pt">O tema central da sessão</span><span data-l="en">The session's core focus</span></p></div>
+        <div class="t-item"><div class="t-min">5-10 min</div><div class="t-name"><span data-l="pt">Planeamento</span><span data-l="en">Planning</span></div><p><span data-l="pt">Metas para a próxima semana</span><span data-l="en">Goals for the coming week</span></p></div>
+        <div class="t-item"><div class="t-min">2 min</div><div class="t-name"><span data-l="pt">Fecho</span><span data-l="en">Close</span></div><p><span data-l="pt">Resumo e compromisso</span><span data-l="en">Summary and commitment</span></p></div>
+      </div>
+    </div>
+    <div class="method-mix reveal">
+
+      <p class="card-title"><span data-l="pt">O meu método combina</span><span data-l="en">My method combines</span></p>
+      <ul class="tool-list">
+        <li><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg><div><strong data-l="pt">Conversas orientadas</strong><strong data-l="en">Guided conversations</strong><span data-l="pt">com escuta estruturada e sem julgamento</span><span data-l="en">with structured, judgement-free listening</span></div></li>
+        <li><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg><div><strong data-l="pt">Exercícios práticos</strong><strong data-l="en">Practical exercises</strong><span data-l="pt">diários de progresso e metas SMART</span><span data-l="en">progress journals and SMART goals</span></div></li>
+        <li><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 11H4v10h5zM20 7h-5v14h5zM14.5 3h-5v18h5z" transform="scale(.92) translate(1 1)"/></svg><div><strong data-l="pt">Responsabilização regular</strong><strong data-l="en">Regular accountability</strong><span data-l="pt">checklists e relatórios semanais</span><span data-l="en">checklists and weekly reports</span></div></li>
+        <li><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg><div><strong data-l="pt">Autoavaliação</strong><strong data-l="en">Self-assessment</strong><span data-l="pt">ferramentas para medir a sua própria evolução</span><span data-l="en">tools to measure your own progress</span></div></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="section" id="servicos">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow"><span data-l="pt">Serviços</span><span data-l="en">Services</span></span>
+      <h2><span data-l="pt">Apoio à medida do seu momento</span><span data-l="en">Support that fits where you are</span></h2>
+    </div>
+    <div class="services-grid">
+      <div class="svc reveal">
+        <div class="ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg></div>
+        <h3><span data-l="pt">Avaliação inicial</span><span data-l="en">Initial assessment</span></h3>
+        <p><span data-l="pt">Primeira conversa para compreender a sua situação e definir o ponto de partida.</span><span data-l="en">A first conversation to understand your situation and set the starting point.</span></p>
+        <span class="dur">60-75 min</span>
+        <button type="button" class="btn btn-ghost btn-xs" data-open-modal><span data-l="pt">Vamos falar</span><span data-l="en">Let's talk</span></button>
+      </div>
+      <div class="svc reveal">
+        <div class="ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
+        <h3><span data-l="pt">Sessões individuais</span><span data-l="en">Individual sessions</span></h3>
+        <p><span data-l="pt">Mentoria individual com estrutura clara, foco e continuidade.</span><span data-l="en">One-to-one mentoring with clear structure, focus and continuity.</span></p>
+        <span class="dur">50 min</span>
+        <button type="button" class="btn btn-ghost btn-xs" data-open-modal><span data-l="pt">Vamos falar</span><span data-l="en">Let's talk</span></button>
+      </div>
+      <div class="svc reveal">
+        <div class="ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg></div>
+        <h3><span data-l="pt">Pacotes mensais</span><span data-l="en">Monthly packages</span></h3>
+        <p><span data-l="pt">4 sessões por mês com contacto semanal por WhatsApp entre sessões.</span><span data-l="en">4 sessions per month with weekly WhatsApp contact between sessions.</span></p>
+        <span class="dur"><span data-l="pt">1 mês</span><span data-l="en">1 month</span></span>
+        <button type="button" class="btn btn-ghost btn-xs" data-open-modal><span data-l="pt">Vamos falar</span><span data-l="en">Let's talk</span></button>
+      </div>
+      <div class="svc reveal">
+        <div class="ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m13 2-2 9h4l-2 11 7-13h-5l3-7z"/></svg></div>
+        <h3><span data-l="pt">Programa intensivo</span><span data-l="en">Intensive programme</span></h3>
+        <p><span data-l="pt">8 semanas de sessões combinadas com tarefas semanais, para mudanças com raízes.</span><span data-l="en">8 weeks combining sessions and weekly tasks, for change that takes root.</span></p>
+        <span class="dur"><span data-l="pt">8 semanas</span><span data-l="en">8 weeks</span></span>
+        <button type="button" class="btn btn-ghost btn-xs" data-open-modal><span data-l="pt">Vamos falar</span><span data-l="en">Let's talk</span></button>
+      </div>
+      <div class="svc reveal">
+        <div class="ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/></svg></div>
+        <h3><span data-l="pt">Sessões pontuais de apoio</span><span data-l="en">One-off support sessions</span></h3>
+        <p><span data-l="pt">Apoio pontual em momentos difíceis (disponibilidade limitada; em crise severa, reencaminho para apoio clínico).</span><span data-l="en">One-off support in difficult moments (limited availability; in severe crisis I refer to clinical care).</span></p>
+        <span class="dur"><span data-l="pt">Sob marcação</span><span data-l="en">By appointment</span></span>
+        <button type="button" class="btn btn-ghost btn-xs" data-open-modal><span data-l="pt">Vamos falar</span><span data-l="en">Let's talk</span></button>
+      </div>
+      <div class="svc reveal">
+        <div class="ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+        <h3><span data-l="pt">Workshops e grupos pequenos</span><span data-l="en">Workshops &amp; small groups</span></h3>
+        <p><span data-l="pt">Temas práticos: rotina, objetivos SMART, gestão de gatilhos.</span><span data-l="en">Practical topics: routine, SMART goals, trigger management.</span></p>
+        <span class="dur"><span data-l="pt">Grupos pequenos</span><span data-l="en">Small groups</span></span>
+        <button type="button" class="btn btn-ghost btn-xs" data-open-modal><span data-l="pt">Vamos falar</span><span data-l="en">Let's talk</span></button>
+      </div>
+      <div class="svc reveal">
+        <div class="ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8"/></svg></div>
+        <h3><span data-l="pt">Acompanhamento familiar</span><span data-l="en">Family support</span></h3>
+        <p><span data-l="pt">Sessões conjuntas ou facilitadas sobre comunicação e limites saudáveis.</span><span data-l="en">Joint or facilitated sessions on communication and healthy boundaries.</span></p>
+        <span class="dur"><span data-l="pt">Quando solicitado</span><span data-l="en">On request</span></span>
+        <button type="button" class="btn btn-ghost btn-xs" data-open-modal><span data-l="pt">Vamos falar</span><span data-l="en">Let's talk</span></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="section pricing" id="pacotes">
+  <div class="wrap">
+    <div class="section-head reveal" style="text-align:center;margin-left:auto;margin-right:auto">
+      <span class="eyebrow"><span data-l="pt">Pacotes e valores</span><span data-l="en">Packages &amp; pricing</span></span>
+      <h2><span data-l="pt">Investimento transparente, sem surpresas</span><span data-l="en">Transparent pricing, no surprises</span></h2>
+    </div>
+    <div class="price-grid">
+      <div class="price-card featured reveal">
+        <span class="badge"><span data-l="pt">Mais escolhido</span><span data-l="en">Most popular</span></span>
+        <h3><span data-l="pt">Pacote Início, 1 mês</span><span data-l="en">Starter Package, 1 month</span></h3>
+        <div class="price">100-160€</div>
+        <p class="per"><span data-l="pt">valor ajustado à sua situação, definido na primeira conversa</span><span data-l="en">value adjusted to your situation, agreed in the first conversation</span></p>
+        <ul>
+          <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span data-l="pt">4 sessões × 50 min (1 por semana)</span><span data-l="en">4 sessions × 50 min (1 per week)</span></li>
+          <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span data-l="pt">Plano de ação inicial personalizado</span><span data-l="en">Personalised initial action plan</span></li>
+          <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span data-l="pt">Tarefas práticas semanais</span><span data-l="en">Practical weekly tasks</span></li>
+          <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span data-l="pt">Contacto semanal de suporte por WhatsApp</span><span data-l="en">Weekly support contact on WhatsApp</span></li>
+        </ul>
+        <a class="btn btn-primary" href="https://wa.me/351967246075?text=Ol%C3%A1%20Ricardo%2C%20tenho%20interesse%20no%20Pacote%20In%C3%ADcio." target="_blank" rel="noopener"><span data-l="pt">Começar agora</span><span data-l="en">Start now</span></a>
+      </div>
+      <div class="price-card reveal">
+        <h3><span data-l="pt">Sessão única</span><span data-l="en">Single session</span></h3>
+        <div class="price">35-60€</div>
+        <p class="per"><span data-l="pt">avaliação inicial ou apoio pontual</span><span data-l="en">initial assessment or one-off support</span></p>
+        <ul>
+          <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span data-l="pt">Sessão de 60-75 min</span><span data-l="en">60-75 min session</span></li>
+          <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span data-l="pt">Sem compromisso de continuidade</span><span data-l="en">No commitment to continue</span></li>
+          <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span data-l="pt">Online ou presencial</span><span data-l="en">Online or in person</span></li>
+        </ul>
+        <a class="btn btn-ghost" href="https://calendar.app.google/4faMJibMyJeCw8iDA" target="_blank" rel="noopener"><span data-l="pt">Marcar sessão</span><span data-l="en">Book a session</span></a>
+      </div>
+    </div>
+    <p class="price-note"><span data-l="pt">Pagamento por MB Way ou transferência. Cancelamentos com 24h de antecedência não têm custo.</span><span data-l="en">Payment by MB Way or bank transfer. Cancellations 24h in advance are free of charge.</span></p>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="section" id="testemunhos">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow"><span data-l="pt">Testemunhos</span><span data-l="en">Testimonials</span></span>
+      <h2><span data-l="pt">Como pode ser o seu percurso</span><span data-l="en">What your journey can look like</span></h2>
+    </div>
+    <!-- PLACEHOLDER TESTIMONIALS: substituir por testemunhos reais (com autorização) antes de publicar -->
+    <div class="testi-grid">
+      <div class="testi reveal">
+        <blockquote><span data-l="pt">«Pela primeira vez tive um plano concreto, semana a semana. As tarefas simples e a responsabilização fizeram toda a diferença.»</span><span data-l="en">"For the first time I had a concrete week-by-week plan. The simple tasks and the accountability made all the difference."</span></blockquote>
+        <div class="who"><div class="av">J.</div><span>J.<small data-l="pt">Exemplo · Acompanhamento mensal</small><small data-l="en">Example · Monthly mentoring</small></span></div>
+      </div>
+      <div class="testi reveal">
+        <blockquote><span data-l="pt">«O Ricardo ouve sem julgar e ajuda a transformar intenções em passos possíveis. Sinto que volto a ter direção.»</span><span data-l="en">"Ricardo listens without judgement and helps turn intentions into doable steps. I feel like I have direction again."</span></blockquote>
+        <div class="who"><div class="av">M.</div><span>M.<small data-l="pt">Exemplo · Programa de 8 semanas</small><small data-l="en">Example · 8-week programme</small></span></div>
+      </div>
+      <div class="testi reveal">
+        <blockquote><span data-l="pt">«Como família, aprendemos a comunicar melhor e a definir limites saudáveis. Recomendo de coração.»</span><span data-l="en">"As a family, we learned to communicate better and set healthy boundaries. I recommend him wholeheartedly."</span></blockquote>
+        <div class="who"><div class="av">A.</div><span>A.<small data-l="pt">Exemplo · Acompanhamento familiar</small><small data-l="en">Example · Family support</small></span></div>
+      </div>
+    </div>
+    <p class="testi-note"><span data-l="pt">Exemplos ilustrativos de percursos de mentoria. À medida que receber testemunhos reais (partilhados com autorização), serão publicados aqui.</span><span data-l="en">Illustrative examples of mentoring journeys. As I receive real testimonials (shared with permission), they will be published here.</span></p>
+  </div>
+</section>
+
+<!-- CLARITY: mentor vs professional -->
+<section class="clarity" id="clareza">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow"><span data-l="pt">Transparência</span><span data-l="en">Transparency</span></span>
+      <h2><span data-l="pt">Mentoria, com limites claros</span><span data-l="en">Mentoring, with clear boundaries</span></h2>
+      <p><span data-l="pt">A confiança começa na honestidade sobre o que este acompanhamento é, e o que não é.</span><span data-l="en">Trust starts with honesty about what this support is, and what it is not.</span></p>
+    </div>
+    <div class="clarity-grid">
+      <div class="clarity-card yes reveal">
+        <h3><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#67805F" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/></svg><span data-l="pt">O que faço</span><span data-l="en">What I do</span></h3>
+        <ul>
+          <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span data-l="pt">Acompanho pessoas em recuperação (álcool, comportamentos aditivos, crises de vida)</span><span data-l="en">I support people in recovery (alcohol, addictive behaviours, life crises)</span></li>
+          <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span data-l="pt">Ajudo a definir metas realistas e mensuráveis, com plano semanal</span><span data-l="en">I help define realistic, measurable goals with a weekly plan</span></li>
+          <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span data-l="pt">Trabalho rotinas, sono, exercício e redução de gatilhos</span><span data-l="en">I work on routines, sleep, exercise and trigger reduction</span></li>
+          <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span data-l="pt">Dou apoio prático e escuta estruturada nas fases difíceis</span><span data-l="en">I give practical support and structured listening in difficult phases</span></li>
+          <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span data-l="pt">Facilito a reinserção social e profissional (emprego, voluntariado, propósito)</span><span data-l="en">I support social &amp; professional reintegration (work, volunteering, purpose)</span></li>
+        </ul>
+      </div>
+      <div class="clarity-card no reveal">
+        <h3><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#B4836B" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m15 9-6 6M9 9l6 6"/></svg><span data-l="pt">O que não faço</span><span data-l="en">What I don't do</span></h3>
+        <ul>
+          <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg><span data-l="pt">Não sou psicólogo, psiquiatra nem terapeuta: não faço diagnósticos nem tratamentos</span><span data-l="en">I am not a psychologist, psychiatrist or therapist: no diagnoses or treatment</span></li>
+          <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg><span data-l="pt">Não substituo acompanhamento clínico ou medicação</span><span data-l="en">I do not replace clinical care or medication</span></li>
+          <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg><span data-l="pt">Não acompanho situações de crise emocional severa: nesses casos, reencaminho para profissionais qualificados</span><span data-l="en">I do not handle severe emotional crises: in those cases I refer people to qualified professionals</span></li>
+          <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg><span data-l="pt">Não prometo resultados rápidos: a recuperação é um processo, e cada passo conta</span><span data-l="en">I do not promise quick fixes: recovery is a process, and every step counts</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section" id="contacto">
+  <div class="wrap">
+    <div class="contact-card reveal">
+      <span class="eyebrow"><span data-l="pt">Vamos conversar</span><span data-l="en">Let's talk</span></span>
+      <h2><span data-l="pt">O primeiro passo é uma conversa.</span><span data-l="en">The first step is a conversation.</span></h2>
+      <p><span data-l="pt">Agende uma avaliação inicial sem compromisso. Conte-me onde está, e eu digo-lhe com honestidade se e como posso ajudar.</span><span data-l="en">Book an initial assessment with no commitment. Tell me where you are, and I will tell you honestly whether and how I can help.</span></p>
+      <div class="contact-actions">
+        <button type="button" class="btn btn-primary" data-open-modal>
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          <span data-l="pt">Vamos falar</span><span data-l="en">Let's talk</span>
+        </button>
+        <a class="btn btn-primary" href="#pacotes"><span data-l="pt">Ver pacotes</span><span data-l="en">See packages</span></a>
+      </div>
+      <p class="contact-small">
+        <a href="https://wa.me/351967246075?text=Ol%C3%A1%20Ricardo%2C%20gostaria%20de%20agendar%20uma%20conversa%20inicial." target="_blank" rel="noopener">WhatsApp: +351 967 246 075</a>
+        <span class="sep">·</span>
+        <span data-l="pt">Online e presencial em Almada</span><span data-l="en">Online &amp; in person in Almada</span>
+        <span class="sep">·</span>
+        <span data-l="pt">Resposta normalmente em 24h</span><span data-l="en">Replies usually within 24h</span>
+      </p>
+    </div>
+  </div>
+</section>
+
+</div>
+
+<div id="view-sobre" hidden>
+
+<!-- ABOUT -->
+<section class="section" id="sobre">
+  <div class="wrap">
+        <div class="about-text">
+      <span class="eyebrow"><span data-l="pt">Sobre mim</span><span data-l="en">About me</span></span>
+      <h2><span data-l="pt">Chamo-me Ricardo. Caminho consigo, passo a passo.</span><span data-l="en">I'm Ricardo. I walk this path with you, step by step.</span></h2>
+      <p style="margin-top:16px">
+        <span data-l="pt">Sou Mentor de Recuperação e Desenvolvimento Humano, em Almada. Antes de ser mentor, estive durante anos do lado de quem cuida: entre 2021 e 2025 fui cuidador familiar a tempo inteiro de uma pessoa com necessidades especiais, enquanto fazia voluntariado no apoio a pessoas em recuperação e participava ativamente na minha comunidade. Foi aí que percebi o que faz a diferença nos dias difíceis: presença constante, rotinas simples e alguém que não desiste.</span>
+        <span data-l="en">I am a Recovery and Human Development Mentor based in Almada, Portugal. Before becoming a mentor, I spent years on the caring side of life: from 2021 to 2025 I was a full time family caregiver for a person with special needs, while volunteering in support of people in recovery and staying actively involved in my community. That is where I learned what makes the difference on hard days: steady presence, simple routines and someone who does not give up.</span>
+      </p>
+      <p>
+        <span data-l="pt">Antes disso, somei mais de 20 anos de trabalho com pessoas: na segurança hospitalar, onde apoiava doentes e famílias em momentos de tensão, e na gestão de restauração, onde formei e liderei equipas. Em 2025 e 2026, transformei essa experiência em formação certificada: mais de 400 horas em PNL, coaching, comunicação e inteligência emocional.</span>
+        <span data-l="en">Before that, I built over 20 years of experience working with people: in hospital security, supporting patients and families in tense moments, and in restaurant management, training and leading teams. In 2025 and 2026 I turned that experience into certified training: over 400 hours in NLP, coaching, communication and emotional intelligence.</span>
+      </p>
+      <p>
+        <span data-l="pt">Hoje acompanho pessoas em recuperação e em reconstrução de vida, online e presencial, com um método simples: plano claro, tarefas semanais e responsabilização. Uma nota importante: sou mentor, não sou psicólogo nem terapeuta. Quando identifico necessidade clínica, reencaminho para profissionais qualificados e trabalho de bom grado em paralelo com o acompanhamento clínico de cada pessoa.</span>
+        <span data-l="en">Today I mentor people in recovery and rebuilding their lives, online and in person, with a simple method: a clear plan, weekly tasks and accountability. One important note: I am a mentor, not a psychologist or therapist. When I identify a clinical need, I refer people to qualified professionals and gladly work alongside each person's clinical care.</span>
+      </p>
+      <div class="pnl-badge reveal">
+        <strong data-l="pt">Certificação internacional Practitioner em PNL</strong>
+        <strong data-l="en">International NLP Practitioner certification</strong><br>
+        <span data-l="pt">A PNL estuda a relação entre linguagem, comportamento e padrões mentais. Sou certificado pelo INAP, com selo do World NLP Council n.º 3373 (100 horas, 2025), e uso estas ferramentas como complemento prático da mentoria, nunca como substituto de acompanhamento clínico.</span>
+        <span data-l="en">NLP studies the relationship between language, behaviour and mental patterns. I am certified by INAP, with World NLP Council seal no. 3373 (100 hours, 2025), and I use these tools as a practical complement to mentoring, never as a substitute for clinical care.</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CREDENTIALS -->
+<section class="section creds" id="formacao">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow"><span data-l="pt">Formação e Percurso</span><span data-l="en">Training &amp; Background</span></span>
+      <h2><span data-l="pt">Formação certificada, experiência vivida</span><span data-l="en">Certified training, lived experience</span></h2>
+      <p><span data-l="pt">A minha mentoria assenta em duas bases: formação certificada em comunicação e desenvolvimento pessoal, e um percurso de vida passado a cuidar e a apoiar pessoas. Todos os certificados estão disponíveis para consulta.</span><span data-l="en">My mentoring rests on two foundations: certified training in communication and personal development, and a life spent caring for and supporting people. All certificates are available on request.</span></p>
+    </div>
+
+    <div class="creds-stats reveal">
+      <div class="stat"><div class="n">400+</div><div class="l"><span data-l="pt">horas de formação certificada</span><span data-l="en">hours of certified training</span></div></div>
+      <div class="stat"><div class="n">8</div><div class="l"><span data-l="pt">certificações relevantes (2025 e 2026)</span><span data-l="en">relevant certifications (2025 &amp; 2026)</span></div></div>
+      <div class="stat"><div class="n">20+</div><div class="l"><span data-l="pt">anos de trabalho com pessoas</span><span data-l="en">years working with people</span></div></div>
+    </div>
+
+    <div class="cred-grid">
+      <div class="cred reveal">
+        <h3 class="card-title"><span data-l="pt">Practitioner em PNL</span><span data-l="en">NLP Practitioner</span></h3>
+        <p class="inst"><span data-l="pt">INAP · selo World NLP Council n.º 3373</span><span data-l="en">INAP · World NLP Council seal no. 3373</span></p>
+        <div class="cred-meta"><span>100h</span><span>2025</span></div>
+      </div>
+      <div class="cred reveal">
+        <h3 class="card-title"><span data-l="pt">Processo de comunicação</span><span data-l="en">Communication processes</span></h3>
+        <p class="inst">IEFP · Setúbal</p>
+        <div class="cred-meta"><span>50h</span><span>2025</span></div>
+      </div>
+      <div class="cred reveal">
+        <h3 class="card-title"><span data-l="pt">Laboratório de competências pessoais</span><span data-l="en">Personal skills laboratory</span></h3>
+        <p class="inst">IEFP · Aveiro</p>
+        <div class="cred-meta"><span>50h</span><span>2026</span></div>
+      </div>
+      <div class="cred reveal">
+        <h3 class="card-title"><span data-l="pt">Laboratório de competências sociais</span><span data-l="en">Social skills laboratory</span></h3>
+        <p class="inst">IEFP · Aveiro</p>
+        <div class="cred-meta"><span>50h</span><span>2026</span></div>
+      </div>
+      <div class="cred reveal">
+        <h3 class="card-title"><span data-l="pt">Coaching e comunicação</span><span data-l="en">Coaching &amp; communication</span></h3>
+        <p class="inst">IEFP · Setúbal</p>
+        <div class="cred-meta"><span>25h</span><span>2025</span></div>
+      </div>
+      <div class="cred reveal">
+        <h3 class="card-title"><span data-l="pt">Inteligência emocional</span><span data-l="en">Emotional intelligence</span></h3>
+        <p class="inst">IEFP · Setúbal</p>
+        <div class="cred-meta"><span>25h</span><span>2025</span></div>
+      </div>
+      <div class="cred reveal">
+        <h3 class="card-title"><span data-l="pt">Relacionamento interpessoal</span><span data-l="en">Interpersonal relationships</span></h3>
+        <p class="inst">IEFP · Setúbal</p>
+        <div class="cred-meta"><span>25h</span><span>2025</span></div>
+      </div>
+      <div class="cred reveal">
+        <h3 class="card-title"><span data-l="pt">Comunicação assertiva</span><span data-l="en">Assertive communication</span></h3>
+        <p class="inst">IEFP · Setúbal</p>
+        <div class="cred-meta"><span>25h</span><span>2025</span></div>
+      </div>
+    </div>
+    <p class="cred-extra reveal"><span data-l="pt">Formação complementar certificada: comunicar e interagir em contexto profissional (50h), laboratório de competências profissionais (50h), organização pessoal e gestão do tempo (25h).</span><span data-l="en">Complementary certified training: communicating in professional contexts (50h), professional skills laboratory (50h), personal organisation and time management (25h).</span></p>
+
+    <div class="journey reveal">
+      <p class="card-title"><span data-l="pt">O meu percurso</span><span data-l="en">My journey</span></p>
+      <ol class="j-line">
+        <li>
+          <span class="j-year"><span data-l="pt">Hoje</span><span data-l="en">Today</span></span>
+          <strong data-l="pt">Mentor de Recuperação e Desenvolvimento Humano</strong><strong data-l="en">Recovery &amp; Human Development Mentor</strong>
+          <p><span data-l="pt">Acompanhamento estruturado, online e presencial em Almada.</span><span data-l="en">Structured mentoring, online and in person in Almada.</span></p>
+        </li>
+        <li>
+          <span class="j-year">2025 · 2026</span>
+          <strong data-l="pt">Formação certificada</strong><strong data-l="en">Certified training</strong>
+          <p><span data-l="pt">Mais de 400 horas em PNL, coaching, comunicação e inteligência emocional (INAP e IEFP).</span><span data-l="en">Over 400 hours in NLP, coaching, communication and emotional intelligence (INAP and IEFP).</span></p>
+        </li>
+        <li>
+          <span class="j-year">2021 · 2025</span>
+          <strong data-l="pt">Cuidador familiar e voluntariado</strong><strong data-l="en">Family caregiver &amp; volunteering</strong>
+          <p><span data-l="pt">Cuidador a tempo inteiro de uma pessoa com necessidades especiais e voluntariado no apoio a pessoas em recuperação.</span><span data-l="en">Full time caregiver for a person with special needs and volunteer supporting people in recovery.</span></p>
+        </li>
+        <li>
+          <span class="j-year">2007 · 2010</span>
+          <strong data-l="pt">Segurança hospitalar</strong><strong data-l="en">Hospital security</strong>
+          <p><span data-l="pt">Apoio a doentes e famílias em momentos de tensão, no Hospital Garcia de Orta, em Almada.</span><span data-l="en">Supporting patients and families in tense moments at Garcia de Orta Hospital, Almada.</span></p>
+        </li>
+        <li>
+          <span class="j-year">1995 · 2018</span>
+          <strong data-l="pt">Mais de 20 anos com o público</strong><strong data-l="en">Over 20 years with the public</strong>
+          <p><span data-l="pt">Restauração e gestão de equipas: formar, liderar e servir pessoas todos os dias.</span><span data-l="en">Hospitality and team management: training, leading and serving people every day.</span></p>
+        </li>
+      </ol>
+    </div>
+    <p class="creds-note"><span data-l="pt">Certificados de conclusão disponíveis para consulta na primeira conversa. Sou mentor, não sou psicólogo nem terapeuta, e esta formação não constitui habilitação clínica.</span><span data-l="en">Completion certificates are available at the first conversation. I am a mentor, not a psychologist or therapist, and this training is not a clinical qualification.</span></p>
+  </div>
+</section>
+
+</div>
+
+<div id="view-faq" hidden>
+
+<!-- FAQ -->
+<section class="section faq" id="faq">
+  <div class="wrap">
+    <div class="section-head reveal" style="text-align:center;margin-left:auto;margin-right:auto">
+      <span class="eyebrow"><span data-l="pt">Q&amp;A</span><span data-l="en">FAQ</span></span>
+      <h2><span data-l="pt">Perguntas frequentes</span><span data-l="en">Frequently asked questions</span></h2>
+    </div>
+    <div class="faq-list">
+      <details class="reveal">
+        <summary><span><span data-l="pt">É terapeuta?</span><span data-l="en">Are you a therapist?</span></span><span class="plus" aria-hidden="true">+</span></summary>
+        <div class="faq-a"><span data-l="pt">Não. Sou mentor de recuperação e desenvolvimento humano. Não sou psicólogo, psiquiatra nem terapeuta, e não faço diagnósticos nem tratamentos. O meu trabalho é educacional e motivacional: estrutura, ferramentas práticas e responsabilização. Quando há necessidade clínica, reencaminho para profissionais qualificados.</span><span data-l="en">No. I am a recovery and human development mentor. I am not a psychologist, psychiatrist or therapist, and I do not diagnose or treat. My work is educational and motivational: structure, practical tools and accountability. Whenever there is a clinical need, I refer people to qualified professionals.</span></div>
+      </details>
+      <details class="reveal">
+        <summary><span><span data-l="pt">Que formação tem?</span><span data-l="en">What training do you have?</span></span><span class="plus" aria-hidden="true">+</span></summary>
+        <div class="faq-a"><span data-l="pt">Tenho mais de 400 horas de formação certificada, concluída entre 2025 e 2026: a certificação internacional Practitioner em PNL pelo INAP, com selo do World NLP Council (100 horas), e formação certificada pelo IEFP, o instituto público de formação profissional, em comunicação, coaching, inteligência emocional e competências pessoais e sociais. A isto somo quatro anos como cuidador familiar a tempo inteiro, voluntariado com pessoas em recuperação e mais de 20 anos de trabalho com o público. Os certificados estão disponíveis para consulta.</span><span data-l="en">I have over 400 hours of certified training completed between 2025 and 2026: the international NLP Practitioner certification by INAP, with the World NLP Council seal (100 hours), and certified training at IEFP, Portugal's public institute for professional training, in communication, coaching, emotional intelligence and personal and social skills. On top of that, four years as a full time family caregiver, volunteering with people in recovery and over 20 years of public facing work. Certificates are available on request.</span></div>
+      </details>
+      <details class="reveal">
+        <summary><span><span data-l="pt">Como funciona uma sessão?</span><span data-l="en">How does a session work?</span></span><span class="plus" aria-hidden="true">+</span></summary>
+        <div class="faq-a"><span data-l="pt">Uma sessão típica dura 50 minutos e segue sempre a mesma estrutura: check-in, revisão das tarefas da semana, trabalho ativo no tema central, planeamento da semana seguinte e fecho com um compromisso concreto. Online ou presencial.</span><span data-l="en">A typical session lasts 50 minutes and always follows the same structure: check-in, review of the week's tasks, active work on the core topic, planning the week ahead, and closing with a concrete commitment. Online or in person.</span></div>
+      </details>
+      <details class="reveal">
+        <summary><span><span data-l="pt">Quantas sessões vou precisar?</span><span data-l="en">How many sessions will I need?</span></span><span class="plus" aria-hidden="true">+</span></summary>
+        <div class="faq-a"><span data-l="pt">Depende do seu ponto de partida e dos seus objetivos. Muitas pessoas começam com o pacote mensal (4 sessões) e ajustamos a partir daí. Na avaliação inicial, defino consigo uma estimativa honesta, sem promessas de resultados rápidos.</span><span data-l="en">It depends on your starting point and goals. Many people begin with the monthly package (4 sessions) and we adjust from there. In the initial assessment, we set an honest estimate together, with no quick-fix promises.</span></div>
+      </details>
+      <details class="reveal">
+        <summary><span><span data-l="pt">Trabalha com dependências?</span><span data-l="en">Do you work with addictions?</span></span><span class="plus" aria-hidden="true">+</span></summary>
+        <div class="faq-a"><span data-l="pt">Sim. Acompanho pessoas em processo de recuperação de álcool, comportamentos aditivos e crises de vida, sempre como complemento (nunca substituto) de acompanhamento clínico quando este é necessário. O foco está em rotinas, gatilhos, objetivos e reintegração.</span><span data-l="en">Yes. I support people recovering from alcohol, addictive behaviours and life crises, always as a complement to (never a substitute for) clinical care when it is needed. The focus is on routines, triggers, goals and reintegration.</span></div>
+      </details>
+      <details class="reveal">
+        <summary><span><span data-l="pt">Fala com a família?</span><span data-l="en">Do you talk to family members?</span></span><span class="plus" aria-hidden="true">+</span></summary>
+        <div class="faq-a"><span data-l="pt">Quando solicitado, sim. Faço sessões conjuntas ou facilitadas com familiares, centradas na comunicação e em limites saudáveis, sempre com o seu consentimento.</span><span data-l="en">When requested, yes. I run joint or facilitated sessions with family members, focused on communication and healthy boundaries, always with your consent.</span></div>
+      </details>
+      <details class="reveal">
+        <summary><span><span data-l="pt">Há suporte entre sessões?</span><span data-l="en">Is there support between sessions?</span></span><span class="plus" aria-hidden="true">+</span></summary>
+        <div class="faq-a"><span data-l="pt">Sim. Nos pacotes mensais há contacto semanal de suporte por WhatsApp, para dúvidas rápidas ou reforço nas fases difíceis. Não é um serviço de urgência: em crise severa, procure serviços de emergência ou profissionais de saúde mental.</span><span data-l="en">Yes. Monthly packages include weekly support contact on WhatsApp, for quick questions or encouragement in tough moments. It is not an emergency service: in a severe crisis, contact emergency services or mental health professionals.</span></div>
+      </details>
+      <details class="reveal">
+        <summary><span><span data-l="pt">O que partilho é privado?</span><span data-l="en">Is what I share private?</span></span><span class="plus" aria-hidden="true">+</span></summary>
+        <div class="faq-a"><span data-l="pt">Sim. Tudo o que partilha comigo é confidencial e tratado com respeito. Nada é partilhado com terceiros sem o seu consentimento, exceto em situações de risco sério em que a lei ou a sua segurança o exijam.</span><span data-l="en">Yes. Everything you share with me is confidential and treated with respect. Nothing is shared with third parties without your consent, except in situations of serious risk where the law or your safety requires it.</span></div>
+      </details>
+      <details class="reveal">
+        <summary><span><span data-l="pt">Como pagar e cancelar?</span><span data-l="en">How do I pay or cancel?</span></span><span class="plus" aria-hidden="true">+</span></summary>
+        <div class="faq-a"><span data-l="pt">Pagamento por MB Way ou transferência bancária, antes da sessão ou no início do pacote. Cancelamentos ou remarcações com pelo menos 24 horas de antecedência não têm qualquer custo.</span><span data-l="en">Payment by MB Way or bank transfer, before the session or at the start of a package. Cancelling or rescheduling at least 24 hours in advance is free of charge.</span></div>
+      </details>
+      <details class="reveal">
+        <summary><span><span data-l="pt">Como marco a primeira conversa?</span><span data-l="en">How do I book the first conversation?</span></span><span class="plus" aria-hidden="true">+</span></summary>
+        <div class="faq-a"><span data-l="pt">Envie uma mensagem no WhatsApp (+351 967 246 075) ou use o botão Vamos falar. Respondo com as opções de horário para a avaliação inicial, sem compromisso.</span><span data-l="en">Send a WhatsApp message (+351 967 246 075) or use the Let's talk button. I will reply with available times for the initial assessment, with no commitment.</span></div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ARTICLES -->
+<section class="section" id="artigos">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow"><span data-l="pt">Artigos e leituras</span><span data-l="en">Articles &amp; reading</span></span>
+      <h2><span data-l="pt">Para saber mais sobre os métodos que uso</span><span data-l="en">To learn more about the methods I use</span></h2>
+      <p><span data-l="pt">Uma seleção de artigos externos, em português e inglês, sobre PNL, metas SMART, hábitos e inteligência emocional. São conteúdos informativos de fontes independentes, não substituem aconselhamento clínico.</span><span data-l="en">A selection of external articles, in Portuguese and English, on NLP, SMART goals, habits and emotional intelligence. They are informational content from independent sources and do not replace clinical advice.</span></p>
+    </div>
+    <div class="art-grid">
+      <div class="art reveal">
+        <span class="lang-badge b-pt">PT</span>
+        <p class="src">CEGOC</p>
+        <h3>PNL: uma breve introdução</h3>
+        <p><span data-l="pt">Introdução clara à Programação Neurolinguística e à forma como liga linguagem, comportamento e padrões mentais.</span><span data-l="en">A clear introduction (in Portuguese) to NLP and how it links language, behaviour and mental patterns.</span></p>
+        <a class="read" href="https://www.cegoc.pt/resources/blog-artigos/eficacia-pessoal-e-profissional/pnl/pnl-uma-breve-introducao" target="_blank" rel="noopener noreferrer"><span data-l="pt">Ler artigo ↗</span><span data-l="en">Read article ↗</span></a>
+      </div>
+      <div class="art reveal">
+        <span class="lang-badge b-pt">PT</span>
+        <p class="src">Projeto EMA</p>
+        <h3>Objetivos SMART: guia completo</h3>
+        <p><span data-l="pt">Guia prático, com exemplos, para definir metas específicas, mensuráveis, alcançáveis, relevantes e com prazo.</span><span data-l="en">A practical guide (in Portuguese) with examples for setting specific, measurable, achievable, relevant, time-bound goals.</span></p>
+        <a class="read" href="https://projetoema.pt/objetivos-smart-exemplos/" target="_blank" rel="noopener noreferrer"><span data-l="pt">Ler artigo ↗</span><span data-l="en">Read article ↗</span></a>
+      </div>
+      <div class="art reveal">
+        <span class="lang-badge b-pt">PT</span>
+        <p class="src">CNN Portugal</p>
+        <h3>O que significa ter inteligência emocional?</h3>
+        <p><span data-l="pt">Uma psicóloga explica o que é a inteligência emocional e como pode ser desenvolvida no dia a dia.</span><span data-l="en">A psychologist explains (in Portuguese) what emotional intelligence is and how to develop it day to day.</span></p>
+        <a class="read" href="https://cnnportugal.iol.pt/emocoes/psicologia/raquel-raimundo-o-psicologo-responde-o-que-significa-ter-inteligencia-emocional-e-como-podemos-desenvolve-la/20250817/689dfe96d34ef72ee44973e9" target="_blank" rel="noopener noreferrer"><span data-l="pt">Ler artigo ↗</span><span data-l="en">Read article ↗</span></a>
+      </div>
+      <div class="art reveal">
+        <span class="lang-badge b-pt">PT</span>
+        <p class="src">SICAD (SNS)</p>
+        <h3>Como se inicia o tratamento das dependências</h3>
+        <p><span data-l="pt">Informação oficial do serviço público português sobre como pedir ajuda clínica nos comportamentos aditivos.</span><span data-l="en">Official information (in Portuguese) from the public health service on seeking clinical help for addictive behaviours.</span></p>
+        <a class="read" href="https://sicad.pt/PT/Intervencao/TratamentoMais/SitePages/ComoIniciaTratamento.aspx" target="_blank" rel="noopener noreferrer"><span data-l="pt">Ler artigo ↗</span><span data-l="en">Read article ↗</span></a>
+      </div>
+      <div class="art reveal">
+        <span class="lang-badge b-en">EN</span>
+        <p class="src">Medical News Today</p>
+        <h3>Neuro-linguistic programming: does it work?</h3>
+        <p><span data-l="pt">Uma análise equilibrada, baseada em evidência, sobre o que a PNL é e o que a investigação diz.</span><span data-l="en">A balanced, evidence-based look at what NLP is and what the research says.</span></p>
+        <a class="read" href="https://www.medicalnewstoday.com/articles/320368" target="_blank" rel="noopener noreferrer"><span data-l="pt">Ler artigo ↗</span><span data-l="en">Read article ↗</span></a>
+      </div>
+      <div class="art reveal">
+        <span class="lang-badge b-en">EN</span>
+        <p class="src">GoodTherapy</p>
+        <h3>NLP: benefits, techniques and how it works</h3>
+        <p><span data-l="pt">As técnicas mais usadas na PNL e a forma como são aplicadas na prática.</span><span data-l="en">The most common NLP techniques and how they are applied in practice.</span></p>
+        <a class="read" href="https://www.goodtherapy.org/learn-about-therapy/types/neuro-linguistic-programming" target="_blank" rel="noopener noreferrer"><span data-l="pt">Ler artigo ↗</span><span data-l="en">Read article ↗</span></a>
+      </div>
+      <div class="art reveal">
+        <span class="lang-badge b-en">EN</span>
+        <p class="src">MindTools</p>
+        <h3>SMART Goals: how to make your goals achievable</h3>
+        <p><span data-l="pt">O guia clássico sobre metas SMART, o mesmo método que uso no plano semanal.</span><span data-l="en">The classic guide to SMART goals, the same method I use in the weekly plan.</span></p>
+        <a class="read" href="https://www.mindtools.com/a4wo118/smart-goals" target="_blank" rel="noopener noreferrer"><span data-l="pt">Ler artigo ↗</span><span data-l="en">Read article ↗</span></a>
+      </div>
+      <div class="art reveal">
+        <span class="lang-badge b-en">EN</span>
+        <p class="src">James Clear</p>
+        <h3>How to build new habits: strategy guide</h3>
+        <p><span data-l="pt">Estratégias simples e comprovadas para criar hábitos que duram, do autor de Atomic Habits.</span><span data-l="en">Simple, proven strategies for building habits that last, by the author of Atomic Habits.</span></p>
+        <a class="read" href="https://jamesclear.com/habit-guide" target="_blank" rel="noopener noreferrer"><span data-l="pt">Ler artigo ↗</span><span data-l="en">Read article ↗</span></a>
+      </div>
+    </div>
+    <p class="art-note"><span data-l="pt">Os artigos abrem em nova janela, nos sites originais.</span><span data-l="en">Articles open in a new window, on their original sites.</span></p>
+  </div>
+</section>
+</div>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h4>Ricardo Prim Melo</h4>
+        <p><span data-l="pt">Mentor de Recuperação e Desenvolvimento Humano. Mentoria prática e estruturada, presencial em Almada e online em todo o país.</span><span data-l="en">Recovery &amp; Human Development Mentor. Practical, structured mentoring, in person in Almada and online nationwide.</span></p>
+      </div>
+      <div>
+        <h4><span data-l="pt">Navegação</span><span data-l="en">Navigation</span></h4>
+        <ul class="foot-links">
+          <li><a href="#sobre"><span data-l="pt">Sobre</span><span data-l="en">About</span></a></li>
+          <li><a href="#formacao"><span data-l="pt">Formação e Percurso</span><span data-l="en">Training &amp; Background</span></a></li>
+          <li><a href="#servicos"><span data-l="pt">Serviços</span><span data-l="en">Services</span></a></li>
+          <li><a href="#pacotes"><span data-l="pt">Pacotes</span><span data-l="en">Packages</span></a></li>
+          <li><a href="#faq"><span data-l="pt">Q&amp;A</span><span data-l="en">FAQ</span></a></li>
+          <li><a href="#artigos"><span data-l="pt">Artigos</span><span data-l="en">Articles</span></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="disclaimer" id="aviso-legal">
+      <span data-l="pt"><strong>Aviso legal:</strong> os serviços prestados por Ricardo Prim Melo como Mentor de Recuperação e Desenvolvimento Humano são de natureza educacional e motivacional e não substituem acompanhamento psicológico, médico ou psiquiátrico. Em situações de risco, crise emocional severa ou necessidade clínica, procure serviços de emergência (112) ou profissionais de saúde mental qualificados. SNS 24: 808 24 24 24.</span>
+      <span data-l="en"><strong>Legal notice:</strong> the services provided by Ricardo Prim Melo as a Recovery and Human Development Mentor are educational and motivational in nature and do not replace psychological, medical or psychiatric care. In situations of risk, severe emotional crisis or clinical need, contact emergency services (112 in Portugal) or qualified mental health professionals. SNS 24: 808 24 24 24.</span>
+    </div>
+    <div class="foot-bottom">
+      <span>© <span id="year">2026</span> Ricardo Prim Melo · <span data-l="pt">Todos os direitos reservados.</span><span data-l="en">All rights reserved.</span></span>
+      <span><a href="#aviso-legal" style="color:inherit"><span data-l="pt">Aviso legal</span><span data-l="en">Legal notice</span></a></span>
+    </div>
+  </div>
+</footer>
+
+<!-- MODAL: Vamos falar -->
+<div class="modal-overlay" id="contactModal" aria-hidden="true">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button type="button" class="modal-close" id="modalClose" aria-label="Fechar / Close">✕</button>
+    <p class="card-title" id="modalTitle"><span data-l="pt">Vamos falar</span><span data-l="en">Let's talk</span></p>
+    <p class="modal-sub"><span data-l="pt">Deixe os seus dados e eu entro em contacto consigo, ou marque diretamente uma videochamada.</span><span data-l="en">Leave your details and I will reach out to you, or book a video call directly.</span></p>
+    <form id="contactForm">
+      <label><span data-l="pt">Nome</span><span data-l="en">Name</span>
+        <input type="text" name="nome" id="mNome" required autocomplete="name">
+      </label>
+      <label><span data-l="pt">Email ou telemóvel</span><span data-l="en">Email or phone</span>
+        <input type="text" name="contacto" required autocomplete="email">
+      </label>
+      <label><span data-l="pt">Mensagem (opcional)</span><span data-l="en">Message (optional)</span>
+        <textarea name="mensagem" rows="3"></textarea>
+      </label>
+      <button type="submit" class="btn btn-primary"><span data-l="pt">Enviar pedido de contacto</span><span data-l="en">Send contact request</span></button>
+    </form>
+    <div class="modal-divider"><span data-l="pt">ou</span><span data-l="en">or</span></div>
+    <div class="modal-actions">
+      <a class="btn btn-ghost" id="videoCallBtn" href="https://wa.me/351967246075?text=Ol%C3%A1%20Ricardo%2C%20gostaria%20de%20marcar%20uma%20videochamada." target="_blank" rel="noopener">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m22 8-6 4 6 4V8Z"/><rect x="2" y="6" width="14" height="12" rx="2"/></svg>
+        <span data-l="pt">Marcar videochamada</span><span data-l="en">Book a video call</span>
+      </a>
+      <a class="btn btn-ghost" href="https://wa.me/351967246075?text=Ol%C3%A1%20Ricardo%2C%20gostaria%20de%20agendar%20uma%20conversa%20inicial." target="_blank" rel="noopener">
+        <span data-l="pt">Falar já no WhatsApp</span><span data-l="en">Chat now on WhatsApp</span>
+      </a>
+    </div>
+    <p class="modal-note"><span data-l="pt">Resposta normalmente em 24h. Dados usados apenas para este contacto.</span><span data-l="en">Replies usually within 24h. Details used only for this contact.</span></p>
+  </div>
+</div>
+
+<a class="wa-float" href="https://wa.me/351967246075?text=Ol%C3%A1%20Ricardo%2C%20gostaria%20de%20agendar%20uma%20conversa%20inicial." target="_blank" rel="noopener" aria-label="WhatsApp">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.96-.94 1.16-.17.2-.35.22-.65.07a8.2 8.2 0 0 1-2.4-1.49 9 9 0 0 1-1.66-2.07c-.17-.3-.02-.46.13-.61.14-.13.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.38-.02-.53-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.5 0 1.47 1.07 2.9 1.22 3.1.15.2 2.11 3.22 5.1 4.51.71.31 1.27.5 1.7.63.72.23 1.37.2 1.88.12.58-.09 1.76-.72 2-1.41.25-.7.25-1.29.18-1.41-.08-.13-.28-.2-.58-.35M12.05 21.5h-.01a9.4 9.4 0 0 1-4.8-1.31l-.34-.2-3.56.93.95-3.47-.22-.36a9.42 9.42 0 1 1 7.98 4.41m8-17.4A11.32 11.32 0 0 0 12.04.75C5.82.75.76 5.8.76 12.02c0 1.99.52 3.92 1.5 5.63L.67 23.5l6-1.57a11.3 11.3 0 0 0 5.38 1.37h.01c6.22 0 11.28-5.06 11.28-11.27 0-3.01-1.17-5.85-3.3-7.98"/></svg>
+</a>
+
+<script>
+(function(){
+  var html=document.documentElement;
+  var btnPt=document.getElementById('btnPt'),btnEn=document.getElementById('btnEn');
+  var navEl=document.querySelector('nav[aria-label]');
+  var burger=document.getElementById('burger'),links=document.getElementById('navLinks');
+  var metaDesc=document.querySelector('meta[name="description"]');
+  var DESC={
+    pt:'Mentoria de recuperação e desenvolvimento pessoal em Almada e online em todo o país. Plano claro, metas semanais e responsabilização. Mentor certificado em PNL, com formação IEFP.',
+    en:'Recovery and personal development mentoring in Almada and online across Portugal. Clear plan, weekly goals and accountability. NLP certified mentor with IEFP training.'
+  };
+  var WA_EN={
+    'Olá Ricardo, gostaria de agendar uma conversa inicial.':'Hello Ricardo, I would like to book an initial conversation.',
+    'Olá Ricardo, tenho interesse no Pacote Início.':'Hello Ricardo, I am interested in the Starter Package.',
+    'Olá Ricardo, gostaria de marcar uma sessão única.':'Hello Ricardo, I would like to book a single session.',
+    'Olá Ricardo, gostaria de marcar uma videochamada.':'Hello Ricardo, I would like to book a video call.'
+  };
+  /* Link de marcações do Google Calendar: criar em calendar.google.com > Horários de marcação,
+     e colar o link (ex.: https://calendar.app.google/xxxx) na constante abaixo.
+     Enquanto estiver vazio, o botão de videochamada usa o WhatsApp. */
+  var CAL_URL='https://calendar.app.google/4faMJibMyJeCw8iDA';
+  var waLinks=Array.prototype.slice.call(document.querySelectorAll('a[href*="wa.me"]'));
+  waLinks.forEach(function(a){
+    try{
+      var u=new URL(a.href);
+      a.dataset.waPt=u.searchParams.get('text')||'';
+    }catch(e){}
+  });
+  function setLang(l){
+    var en=(l==='en');
+    html.setAttribute('lang',en?'en':'pt');
+    btnPt.classList.toggle('active',!en);
+    btnEn.classList.toggle('active',en);
+    btnPt.setAttribute('aria-pressed',String(!en));
+    btnEn.setAttribute('aria-pressed',String(en));
+    document.title=en
+      ?'Ricardo Prim Melo | Recovery & Human Development Mentor'
+      :'Ricardo Prim Melo | Mentor de Recuperação e Desenvolvimento Humano';
+    if(metaDesc){metaDesc.setAttribute('content',en?DESC.en:DESC.pt)}
+    if(navEl){navEl.setAttribute('aria-label',en?'Main':'Principal')}
+    burger.setAttribute('aria-label',en?'Open menu':'Abrir menu');
+    waLinks.forEach(function(a){
+      var pt=a.dataset.waPt;
+      if(!pt)return;
+      try{
+        var u=new URL(a.href);
+        u.searchParams.set('text',en?(WA_EN[pt]||pt):pt);
+        a.href=u.toString();
+      }catch(e){}
+    });
+    try{localStorage.setItem('rpm-lang',en?'en':'pt')}catch(e){}
+  }
+  btnPt.addEventListener('click',function(){setLang('pt')});
+  btnEn.addEventListener('click',function(){setLang('en')});
+  // sync with the language decided by the early <head> script
+  if(html.getAttribute('lang')==='en'){setLang('en')}
+
+  // mobile nav: fita persistente sob o cabeçalho (fecha só no botão ou Escape)
+  function closeNav(){
+    links.classList.remove('open');burger.classList.remove('open');
+    burger.setAttribute('aria-expanded','false');
+  }
+  burger.addEventListener('click',function(){
+    var open=links.classList.toggle('open');
+    burger.classList.toggle('open',open);
+    burger.setAttribute('aria-expanded',String(open));
+  });
+
+  // modal Vamos falar
+  var modal=document.getElementById('contactModal');
+  var vcBtn=document.getElementById('videoCallBtn');
+  if(CAL_URL){vcBtn.href=CAL_URL;delete vcBtn.dataset.waPt}
+  function openModal(){modal.classList.add('open');modal.setAttribute('aria-hidden','false');
+    var f=document.getElementById('mNome');if(f){setTimeout(function(){f.focus()},150)}}
+  function closeModal(){modal.classList.remove('open');modal.setAttribute('aria-hidden','true')}
+  document.getElementById('talkBtn').addEventListener('click',openModal);
+  document.querySelectorAll('[data-open-modal]').forEach(function(b){b.addEventListener('click',openModal)});
+  document.getElementById('modalClose').addEventListener('click',closeModal);
+  modal.addEventListener('click',function(e){if(e.target===modal){closeModal()}});
+  document.getElementById('contactForm').addEventListener('submit',function(e){
+    e.preventDefault();
+    var en=html.getAttribute('lang')==='en';
+    var f=e.target;
+    var subject=en?'New contact from the website':'Novo contacto a partir do site';
+    var body=(en?'Name: ':'Nome: ')+f.nome.value+'\n'
+      +(en?'Contact: ':'Contacto: ')+f.contacto.value
+      +(f.mensagem.value?'\n\n'+(en?'Message: ':'Mensagem: ')+f.mensagem.value:'');
+    location.href='mailto:ricardomelosrg@gmail.com?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(body);
+    closeModal();
+  });
+
+  document.addEventListener('keydown',function(e){
+    if(e.key==='Escape'){
+      if(modal.classList.contains('open')){closeModal()}
+      else if(links.classList.contains('open')){closeNav();burger.focus()}
+    }
+  });
+
+  // reveal on scroll
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){
+      es.forEach(function(en){if(en.isIntersecting){en.target.classList.add('in');io.unobserve(en.target)}});
+    },{threshold:.12});
+    document.querySelectorAll('.reveal').forEach(function(el){io.observe(el)});
+  }else{
+    document.querySelectorAll('.reveal').forEach(function(el){el.classList.add('in')});
+  }
+
+  // tab router: Sobre and Q&A live in their own views
+  var viewHome=document.getElementById('view-home'),viewFaq=document.getElementById('view-faq'),viewSobre=document.getElementById('view-sobre');
+  function route(){
+    var h=location.hash;
+    var faqMode=(h==='#faq'||h==='#artigos');
+    var sobreMode=(h==='#sobre'||h==='#formacao');
+    viewHome.hidden=faqMode||sobreMode;
+    viewFaq.hidden=!faqMode;
+    viewSobre.hidden=!sobreMode;
+    if(faqMode){
+      if(h==='#artigos'){var a=document.getElementById('artigos');if(a){a.scrollIntoView()}}
+      else{window.scrollTo(0,0)}
+    }else if(sobreMode){
+      if(h==='#formacao'){var f=document.getElementById('formacao');if(f){f.scrollIntoView()}}
+      else{window.scrollTo(0,0)}
+    }else if(h&&h.length>1){
+      var el=document.querySelector(h);
+      if(el){el.scrollIntoView()}
+    }
+  }
+  window.addEventListener('hashchange',route);
+  if(location.hash==='#faq'||location.hash==='#artigos'||location.hash==='#sobre'||location.hash==='#formacao'){route()}
+
+  // print: open all FAQs
+  window.addEventListener('beforeprint',function(){
+    document.querySelectorAll('details:not([open])').forEach(function(d){d.dataset.tmpOpen='1';d.open=true});
+  });
+  window.addEventListener('afterprint',function(){
+    document.querySelectorAll('details[data-tmp-open]').forEach(function(d){d.open=false;delete d.dataset.tmpOpen});
+  });
+
+  // year
+  document.getElementById('year').textContent=new Date().getFullYear();
+})();
+</script>
+
+</body>
+</html>
